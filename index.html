@@ -816,7 +816,7 @@ function InboxView({ route, go, toast }) {
   const book = () => toast("The booking calendar isn't part of this prototype");
 
   const navItems = [["inbox", "Inbox"], ["calendar", "Calendar"], ["settings", "Settings"]];
-  const navClick = (key) => { if (key !== "inbox") toast(`${key === "calendar" ? "Calendar" : "Settings"} isn't part of this prototype`); };
+  const navClick = (key) => { if (key !== "inbox") toast(`${key === "calendar" ? "Calendar" : "Settings"} is coming in the next release`); };
 
   const showOverlay = !isDesktop && selected;
 
